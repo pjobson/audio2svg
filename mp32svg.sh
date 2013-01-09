@@ -13,7 +13,7 @@ usage: $0 options
 Convert mp3 wave form to scalar vector graphic (SVG).
 
 OPTIONS:
-  -?  Show this message
+  -?	Show this message
   -i	Input File
   -o	Output File (optional)
   -t	Type (standard|feathered|skeleton|crisp) (optional)
@@ -21,7 +21,7 @@ OPTIONS:
 EOF
 }
 
-while getopts "iot" OPTION
+while getopts "i:o:t" OPTION
 do
 	case $OPTION in
 		i)
