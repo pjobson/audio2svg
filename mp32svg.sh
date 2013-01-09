@@ -3,7 +3,6 @@
 INPUT=
 OUTPUT=
 TYPE=
-MESSAGE=
 
 usage()
 {
