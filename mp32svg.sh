@@ -9,7 +9,7 @@ usage()
 cat << EOF
 usage: $0 options
 
-Convert mp3 wave form to scalar vector graphic (SVG).
+Convert audio wave form to scalar vector graphic (SVG).
 
 OPTIONS:
   -?	Show this message
