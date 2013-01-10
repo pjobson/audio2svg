@@ -12,14 +12,13 @@ This is a commandline tool for converting an MP3 into an SVG file for viewing.  
     http://autotrace.sourceforge.net/
 * wav2png - Create waveform pngs out of audio files.
     https://github.com/beschulz/wav2png
+    * Requires *boost*, *png++*, and *libsndfile* which you can install with brew or MacPorts.
 
 ### Operating Systems ###
 
 * Linux - Install SoX/ImageMagick/AutoTrace with your package manager.
 * OSX - Install MacPorts or Brew, then install SoX/ImageMagick/AutoTrace with that.
 * Windows - May work with CYGWIN, I haven't tested it.
-
-There are wav2png binaries available if you don't want to compile it. https://github.com/beschulz/wav2png/tree/master/bin
 
 ### Install ###
 
