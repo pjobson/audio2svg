@@ -1,7 +1,7 @@
-# mp32svg #
-## MP3 to SVG ##
+# audio2svg #
+## Audio to SVG ##
 
-This is a commandline tool for converting an MP3 into an SVG file for viewing.  The SVG created isn't really a pure waveform it is more of an interpretation, you couldn't take the SVG and convert it back to the MP3 and get the exact tune.  I created it so I could make vector graphics compatible with laser cutting.  Feel free to use it or fork it, please follow the CC license.
+This is a commandline tool for converting an audio files into an SVG file for viewing.  The SVG created isn't really a pure waveform it is more of an interpretation, you couldn't take the SVG and convert it back to the MP3 and get the exact tune.  I created it so I could make vector graphics compatible with laser cutting.  Feel free to use it or fork it, please follow the CC license.
 
 ### Requirements ###
 * SoX - Also known as Sound eXchange. Translates sound samples between different file formats, and optionally applies various sound effects. SoX is intended as the Swiss Army knife of sound processing tools. It doesn't do anything very well, but sooner or later it comes in very handy.
