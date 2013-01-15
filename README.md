@@ -26,22 +26,22 @@ I usually put it in ~/bin/ and add that to my PATH.
 
 ### Usage ###
 
-    mp32svg.sh -?
+    audio2svg.sh -?
 
 Shows help.
 
-    mp32svg.sh -i somefile.mp3
+    audio2svg.sh -i somefile.mp3
 
 Outputs somefile.mp3.svg
 
-    mp32svg.sh -i somefile.mp3 -o somefile.svg
+    audio2svg.sh -i somefile.mp3 -o somefile.svg
 
 Outputs somefile.svg
 
-    mp32svg.sh -i somefile.mp3 -t standard
-    mp32svg.sh -i somefile.mp3 -t feathered
-    mp32svg.sh -i somefile.mp3 -t skeleton
-    mp32svg.sh -i somefile.mp3 -t crisp
+    audio2svg.sh -i somefile.mp3 -t standard
+    audio2svg.sh -i somefile.mp3 -t feathered
+    audio2svg.sh -i somefile.mp3 -t skeleton
+    audio2svg.sh -i somefile.mp3 -t crisp
     
 Uses one of my pre-defined filters for the autotrace of the GIF generated from the WAV form.  You can add types starting at line 64, just follow the format I have and read the autotrace man page.
 
